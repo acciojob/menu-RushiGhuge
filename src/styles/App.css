@@ -1,12 +1,29 @@
+*{
+    font-family: monospace;
+}
 h1 {
     color: #27aedb;
     text-align: center;
-    }
-    
+}
 
-button{
+
+button {
     color: #27aedb;
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.item {
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.display-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    font-size: 1.2rem;
 }
